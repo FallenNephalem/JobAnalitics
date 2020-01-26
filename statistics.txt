@@ -1,0 +1,24 @@
+Python : 9
+CSS : 1
+JavaScript : 1
+React : 1
+Docker : 1
+Git : 1
+HTML5 : 1
+Redux : 1
+Django Framework : 4
+Flask : 1
+Математическая статистика : 1
+MS SQL : 1
+R : 3
+Математический анализ : 1
+REST : 1
+docker : 1
+API : 1
+Анализ бизнес показателей : 1
+Анализ временных рядов : 1
+Статистический анализ : 1
+Анализ данных : 1
+Data Analysis : 1
+Big Data : 1
+Data Mining: Business Analytica : 1
