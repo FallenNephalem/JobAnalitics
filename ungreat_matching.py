@@ -26,7 +26,8 @@ def ungreat_match(str1,str2):
 		keys = [str1, 'True']
 		return keys
 	elif math.fabs(lenth1 - lenth2) > 3:
-		keys = ['mismatching skills', 'False']
+		test = 1
+		keys = ['mismatching skills', 'False', test]
 		return keys
 	else:
 		for char in str1:
@@ -40,12 +41,13 @@ def ungreat_match(str1,str2):
 			i+=1
 		#print(mk)
 		#print(min_num)
-		if mk == min_num:
+		if (mk >=  (min_num*0.7)):
 			if min_num == lenth1:
 				keys = [str1, 'True']
 			elif min_num == lenth2:
 				keys = [str2, 'True']
 			return keys
 		else:
-			keys = ['mismatching skills', 'False']
+			test = 2
+			keys = ['mismatching skills', 'False',test]
 			return keys
