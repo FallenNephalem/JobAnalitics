@@ -1,6 +1,4 @@
 import math
-#from fuzzywuzzy import fuzz
-#from fuzzywuzzy import process
 alfabet = [['q','Q'],['w','W'],['e','E'],['r','R'],
 ['t','T'],['y','Y'],['u','U'],['i','I'],['o','O'],
 ['p','P'],['a','A'],['s','S'],['d','D'],['f','F'],
@@ -26,20 +24,17 @@ def one_register(str1):
 	while i<len(str1):
 		j=0
 		while j<26:
-			print(alfabet[j][1])
 			if str1[i] == alfabet[j][1]:
-				str1[i] = alfabet[j][0]
+				str1 = str1.replace(str1[i], alfabet[j][0])
 			j+=1
-			print("j"+str(j))
 		i+=1
-		print("i"+str(i))
+	return str1
 
 
 def ungreat_match(str1,str2):
 	i=0
 	lenth1 = len(str1)
 	lenth2 = len(str2)
-	#print(str2)
 	mk = 0
 	min_num = num_match_min(lenth1, lenth2)
 	str1 = one_register(str1)
@@ -54,15 +49,9 @@ def ungreat_match(str1,str2):
 	else:
 		for char in str1:
 			if i < min_num:
-
 				if char == str2[i]:
-					#print('true')
 					mk+=1
-				#else:
-					#print('fail')
 			i+=1
-		#print(mk)
-		#print(min_num)
 		if (mk >=  (min_num*0.7)):
 			if min_num == lenth1:
 				keys = [str1, 'True']

@@ -1,3 +1,8 @@
-string = 'hello'
-string[1] = 'f'
-print(string[1])
+# string = 'hEllo'
+# string.replace('E','e')
+# print(string)
+
+text = "Test~123"
+
+print(text)
+print(text.replace('~', ' '))
