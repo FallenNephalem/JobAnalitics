@@ -19,7 +19,6 @@ def ungreat_match(str1,str2):
 	i=0
 	lenth1 = len(str1)
 	lenth2 = len(str2)
-	#print(str2)
 	mk = 0
 	min_num = num_match_min(lenth1, lenth2)
 	if str1 == str2:
@@ -34,13 +33,8 @@ def ungreat_match(str1,str2):
 			if i < min_num:
 
 				if char == str2[i]:
-					#print('true')
 					mk+=1
-				#else:
-					#print('fail')
 			i+=1
-		#print(mk)
-		#print(min_num)
 		if (mk >=  (min_num*0.7)):
 			if min_num == lenth1:
 				keys = [str1, 'True']
