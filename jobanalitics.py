@@ -13,13 +13,14 @@ session = requests.Session()
 request = session.get(first_url, headers=headers)
 if request.status_code == 200:
     soup = bs(request.content,'html.parser')
-    divs = soup.find_all('div', attrs={'data-qa':'vacancy-serp__vacancy vacancy-serp__vacancy_premium'})
+    divs = soup.find_all('div', attrs={'data-qa':'vacancy-serp__vacancy'}) # vacancy-serp__vacancy_premium
     for div in divs:
         title = div.find('a', attrs={'data-qa':'vacancy-serp__vacancy-title'})['href']
-        print(title)
+        #print(title)
         links.append(title)
+    print('wait a minute...')
+    session = requests.Session()
     for url in links:
-        session = requests.Session()
         request = session.get(url, headers=headers)
         if request.status_code == 200:
             soup = bs(request.content,'html.parser')
@@ -28,26 +29,19 @@ if request.status_code == 200:
                 skills.append(div.find('span', attrs={'data-qa':'bloko-tag__text'}).text)
 print(skills)
 
-
-i=0
-j=0
 statistic = {}
+i=0
 while i<len(skills):
-    while j<len(skills):
-        result = ungreat_match(skills[i],skills[j])
-        # print(result)
-        if result[1] == 'True':
-            skill_is_exist = statistic.get(result[0])
-            print(result[0], skill_is_exist)
-            if skill_is_exist == None:
-                print('here')
-                statistic[result[0]] = 1
-            else:
-                statistic[result[0]] = statistic[result[0]] + 1
-        j+=1
-    i+=1
-    j=0
+    result = ungreat_match(skills[0],skills[i])
+    if result[1] == 'True':
+        skill_is_exist = statistic.get(result[0])
+        if skill_is_exist == None:
+            statistic[result[0]] = 1
+        else:
+            statistic[result[0]] = statistic[result[0]] + 1
+    skills.remove(skills[0])
 print(statistic)
+
 
 file = open('statistics.txt','w')
 for static in statistic:

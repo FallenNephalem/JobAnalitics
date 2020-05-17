@@ -1,18 +1,108 @@
-Python : 4
-CSS : 1
-JavaScript : 1
-React : 1
-Docker : 1
-Git : 1
-HTML5 : 1
-Redux : 1
-Django Framework : 1
-Flask : 1
-РђРЅРіР»РёР№СЃРєРёР№В вЂ” B2 вЂ” РЎСЂРµРґРЅРµ-РїСЂРѕРґРІРёРЅСѓС‚С‹Р№ : 1
-Spark : 1
-SQL : 1
-QA : 1
-РќР°РіСЂСѓР·РѕС‡РЅРѕРµ С‚РµСЃС‚РёСЂРѕРІР°РЅРёРµ : 1
-Р¤СѓРЅРєС†РёРѕРЅР°Р»СЊРЅРѕРµ С‚РµСЃС‚РёСЂРѕРІР°РЅРёРµ : 1
-Delphi : 1
-TestComplete : 1
+python : 31
+linux : 12
+Математическая статистика : 1
+Математический анализ : 3
+git : 17
+windows : 2
+pytest : 4
+c/c++ : 3
+c : 7
+django framework : 10
+postgresql : 8
+postgres : 2
+django : 2
+django rest framework : 1
+ci : 2
+Работа в команде : 1
+Английский — c1 — Продвинутый : 1
+ООП : 4
+atlassian jira : 2
+Английский — b2 — Средне-продвинутый : 2
+data mining : 1
+Маркетинговый анализ : 1
+Статистический анализ : 1
+sql : 5
+data science : 3
+mysql : 2
+redis : 4
+mongodb : 4
+flask : 1
+scrum : 2
+rest : 4
+kubernetes : 3
+docker : 3
+influxdb : 2
+jenkins : 2
+angularjs : 1
+javascript : 5
+jquery : 1
+С : 1
+networking : 1
+black box testing : 1
+Функциональное тестирование : 1
+tcp/ip : 2
+Искусственный интеллект : 1
+big data : 1
+lead engineer : 1
+rest api : 3
+celery : 1
+asyncio : 1
+nginx : 1
+devops : 1
+elasticsearch : 1
+rabbitmq : 2
+nosql : 3
+socialnetwork : 1
+gevent : 1
+bootstrap : 1
+vue.js/nuxt.js : 1
+perl : 1
+ruby : 1
+elixir : 1
+kafka : 2
+grafana : 1
+php : 1
+node.js : 2
+css : 1
+react : 2
+Базы данных : 1
+backend : 1
+api : 1
+Английский — a1 — Начальный : 1
+golang : 2
+go : 2
+ansible : 1
+openstack : 1
+c++ : 3
+stm32 : 1
+Английский язык : 1
+dask : 1
+pandas : 3
+etl : 1
+Преподаватель : 1
+Машинное обучение : 1
+unix : 1
+java : 1
+hadoop : 1
+spark : 2
+bash : 2
+tensorflow : 1
+keras : 1
+pytorch : 1
+deep learning : 1
+nlp : 1
+reactjs : 1
+html5 : 1
+ios : 1
+objective-c : 1
+apple swift : 1
+cocoa touch : 1
+auto layout : 1
+swift ui : 1
+cocoapods : 1
+adobe photoshop : 1
+mvvm : 1
+design patterns : 1
+ci/cd : 1
+Администрирование серверов linux : 2
+Администрирование серверов windows : 1
