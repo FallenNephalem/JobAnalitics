@@ -1,101 +1,132 @@
-Python : 31
-Linux : 12
-Математическая статистика : 2
-Математический анализ : 2
-Git : 15
-Windows : 2
-pytest : 2
-C/C++ : 2
-Django : 2
-Django REST Framework : 1
-PyTest : 1
-Postgres : 1
-CI : 1
-Работа в команде : 1
-Django Framework : 9
-PostgreSQL : 11
-MySQL : 5
-Redis : 4
-MongoDB : 5
-Flask : 1
-Scrum : 2
-REST : 1
-kubernetes : 1
-docker : 1
-InfluxDB : 1
-Jenkins : 1
-TCP/IP : 1
-Bash : 3
-C++ : 2
-Искусственный интеллект : 1
-Big Data : 1
-Data science : 1
-Lead engineer : 1
-REST API : 2
-Celery : 1
-asyncio : 1
-Nginx : 2
-Docker : 1
-devops : 1
-Elasticsearch : 1
-RabbitMQ : 2
-NoSQL : 2
-SocialNetwork : 1
-gevent : 1
-Atlassian Jira : 2
-Базы данных : 1
-Kafka : 1
-BackEnd : 1
-Английский — B2 — Средне-продвинутый : 2
-Английский язык : 2
-dask : 1
-pandas : 1
-ETL : 1
-ООП : 3
-API : 1
-Английский — C1 — Продвинутый : 1
-SQL : 8
-Математическое моделирование : 1
-Statistica : 1
-Data Mining : 2
-Аналитические исследования : 1
-Анализ данных : 1
-R programming languagу : 1
-Machine Learning : 1
-R : 1
-aioamqp : 1
-aiohttp : 1
-Асинхронное программирование : 1
-Многопоточное программирование : 1
-Bootstrap : 1
-JavaScript : 4
-Vue.js/Nuxt.js : 1
-Маркетинговый анализ : 1
-Статистический анализ : 1
-Data Science : 1
-CSS : 1
-HTML : 1
-Английский — B1 — Средний : 1
-MS SQL : 2
-PHP : 1
-Shell Scripting : 1
-Преподаватель : 1
-Машинное обучение : 1
-Unix : 1
-Java : 1
-Hadoop : 1
-Spark : 1
-Golang : 1
-Go : 1
-Английский — A1 — Начальный : 1
-Pytorch и TensorFlow : 1
-Умение работать в коллективе : 1
-CRM : 1
-Постановка задач разработчикам : 1
-Teamleading : 1
-СУБД : 1
-руководство командой разработчиков : 1
-SaaS : 1
-MS Excel : 1
-AngularJS : 1
-jQuery : 1
+Английский — B2 — Средне-продвинутый : 9
+Python : 66
+Data Mining : 9
+Маркетинговый анализ : 6
+Статистический анализ : 6
+SQL : 30
+Data Science : 3
+iOS : 3
+Objective-C : 3
+Apple Swift : 3
+Cocoa Touch : 3
+Auto Layout : 3
+Swift UI : 3
+Cocoapods : 3
+REST API : 3
+NoSQL : 3
+Node.js : 9
+Adobe Photoshop : 3
+MVVM : 3
+Design Patterns : 3
+Linux : 24
+Git : 18
+CI/CD : 3
+Tensorflow : 3
+Keras : 3
+PyTorch : 3
+Deep Learning : 3
+NLP : 3
+JavaScript : 6
+React.js : 3
+Scrum : 6
+Next.js : 3
+ES5 : 3
+ES6 : 3
+SSR : 3
+Backbone : 3
+Техническая поддержка : 6
+Bash : 12
+Консультирование клиентов : 3
+Администрирование серверов Linux : 6
+Leadership Skills : 3
+Project management : 6
+Anaplan : 3
+Cognos Planning : 3
+SAP : 3
+Oracle Hyperion : 3
+System Integration : 3
+Business Analysis : 6
+Business Intelligence Systems : 3
+Performance Management : 3
+Java : 9
+системная аналитика : 3
+Управление продуктом : 3
+продуктовые исследования : 3
+продуктовая аналитика : 3
+QA : 6
+Регресcионное тестирование : 3
+Тестирование : 9
+Функциональное тестирование : 3
+Test case : 6
+Автоматизация : 3
+Вывод продукта на рынок : 3
+Product Management : 3
+Start-up project : 6
+Agile Project Management : 3
+Investment Banking : 3
+Analytical skills : 3
+Взаимодействие с инвестиционными фондами : 3
+Биржевые торги : 3
+Запуск новых продуктов : 3
+Data Analysis : 3
+C++ : 9
+Математическое моделирование : 6
+Математическая статистика : 3
+Анализ данных : 3
+MS SQL Server : 3
+MS PowerPoint : 6
+MS SQL : 6
+Работа с базами данных : 3
+Английский — B1 — Средний : 12
+ML : 3
+Hadoop : 3
+Spark : 3
+Аналитические исследования : 6
+Скоринг : 3
+ООП : 6
+Django Framework : 12
+PostgreSQL : 12
+XML : 3
+Nginx : 3
+Atlassian Jira : 3
+Redis : 3
+RabbitMQ : 3
+MySQL : 6
+Cистемы управления базами данных : 3
+Корпоративные финансы : 3
+Бизнес-анализ : 3
+Проведение презентаций : 3
+MongoDB : 3
+Английский — A1 — Начальный : 3
+Русский — C2 — В совершенстве : 3
+jQuery : 3
+Bootstrap : 3
+CSS3 : 3
+HTML5 : 3
+Figma : 3
+PHP : 3
+React : 3
+UX : 3
+UI : 3
+AWS : 3
+React Native : 3
+Webpack : 3
+Java EE : 3
+XML/Xslt : 3
+Docker : 3
+Lua : 3
+Умение работать в команде : 3
+Affilite marketing : 3
+CPA : 3
+Internet Marketing : 3
+Facebook API : 3
+Интернет-реклама : 3
+Facebook : 3
+Социальные сети : 3
+Cоциальный маркетинг : 3
+Google AdWords : 3
+CSS : 3
+Cisco : 3
+VMware : 3
+D-Link : 3
+SVN : 3
