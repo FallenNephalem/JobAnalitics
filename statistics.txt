@@ -1,132 +1,122 @@
-Английский — B2 — Средне-продвинутый : 9
-Python : 66
-Data Mining : 9
-Маркетинговый анализ : 6
-Статистический анализ : 6
-SQL : 30
-Data Science : 3
-iOS : 3
-Objective-C : 3
-Apple Swift : 3
-Cocoa Touch : 3
-Auto Layout : 3
-Swift UI : 3
-Cocoapods : 3
-REST API : 3
-NoSQL : 3
-Node.js : 9
-Adobe Photoshop : 3
-MVVM : 3
-Design Patterns : 3
-Linux : 24
-Git : 18
-CI/CD : 3
-Tensorflow : 3
-Keras : 3
-PyTorch : 3
-Deep Learning : 3
-NLP : 3
-JavaScript : 6
-React.js : 3
-Scrum : 6
-Next.js : 3
-ES5 : 3
-ES6 : 3
-SSR : 3
-Backbone : 3
-Техническая поддержка : 6
-Bash : 12
-Консультирование клиентов : 3
-Администрирование серверов Linux : 6
-Leadership Skills : 3
-Project management : 6
-Anaplan : 3
-Cognos Planning : 3
-SAP : 3
-Oracle Hyperion : 3
-System Integration : 3
-Business Analysis : 6
-Business Intelligence Systems : 3
-Performance Management : 3
-Java : 9
-системная аналитика : 3
-Управление продуктом : 3
-продуктовые исследования : 3
-продуктовая аналитика : 3
-QA : 6
-Регресcионное тестирование : 3
-Тестирование : 9
-Функциональное тестирование : 3
-Test case : 6
-Автоматизация : 3
-Вывод продукта на рынок : 3
-Product Management : 3
-Start-up project : 6
-Agile Project Management : 3
-Investment Banking : 3
-Analytical skills : 3
-Взаимодействие с инвестиционными фондами : 3
-Биржевые торги : 3
-Запуск новых продуктов : 3
-Data Analysis : 3
-C++ : 9
-Математическое моделирование : 6
-Математическая статистика : 3
-Анализ данных : 3
-MS SQL Server : 3
-MS PowerPoint : 6
-MS SQL : 6
-Работа с базами данных : 3
-Английский — B1 — Средний : 12
-ML : 3
-Hadoop : 3
-Spark : 3
-Аналитические исследования : 6
-Скоринг : 3
-ООП : 6
-Django Framework : 12
-PostgreSQL : 12
-XML : 3
-Nginx : 3
-Atlassian Jira : 3
-Redis : 3
-RabbitMQ : 3
-MySQL : 6
-Cистемы управления базами данных : 3
-Корпоративные финансы : 3
-Бизнес-анализ : 3
-Проведение презентаций : 3
-MongoDB : 3
-Английский — A1 — Начальный : 3
-Русский — C2 — В совершенстве : 3
-jQuery : 3
-Bootstrap : 3
-CSS3 : 3
-HTML5 : 3
-Figma : 3
-PHP : 3
-React : 3
-UX : 3
-UI : 3
-AWS : 3
-React Native : 3
-Webpack : 3
-Java EE : 3
-XML/Xslt : 3
-Docker : 3
-Lua : 3
-Умение работать в команде : 3
-Affilite marketing : 3
-CPA : 3
-Internet Marketing : 3
-Facebook API : 3
-Интернет-реклама : 3
-Facebook : 3
-Социальные сети : 3
-Cоциальный маркетинг : 3
-Google AdWords : 3
-CSS : 3
-Cisco : 3
-VMware : 3
-D-Link : 3
-SVN : 3
+Python : 26725
+Linux : 9885
+Windows : 1640
+pytest : 1640
+Django Framework : 9352
+Git : 11864
+PostgreSQL : 6426
+Математическая статистика : 1458
+Математический анализ : 1458
+Искусственный интеллект : 820
+Big Data : 820
+Data science : 820
+Lead engineer : 820
+REST API : 1002
+Django : 1640
+Celery : 1640
+asyncio : 1002
+Nginx : 820
+Docker : 1640
+devops : 820
+Redis : 4888
+MongoDB : 3280
+Elasticsearch : 820
+RabbitMQ : 2460
+NoSQL : 820
+SocialNetwork : 820
+gevent : 820
+Atlassian Jira : 1640
+Базы данных : 820
+Kafka : 820
+BackEnd : 820
+C/C++ : 2460
+Английский — B2 — Средне-продвинутый : 1640
+Английский язык : 915
+dask : 820
+pandas : 820
+ETL : 820
+Английский — C1 — Продвинутый : 820
+ООП : 1972
+Django REST Framework : 820
+PyTest : 820
+Postgres : 820
+CI : 820
+Работа в команде : 820
+Математическое моделирование : 638
+Statistica : 638
+Data Mining : 1458
+Аналитические исследования : 638
+Анализ данных : 638
+R programming languagу : 638
+SQL : 2877
+Machine Learning : 638
+R : 638
+TCP/IP : 788
+Bash : 2278
+C++ : 1640
+Маркетинговый анализ : 820
+Статистический анализ : 820
+Data Science : 820
+Pytorch и TensorFlow : 638
+Умение работать в коллективе : 985
+CSS : 670
+JavaScript : 2610
+MySQL : 1490
+HTML : 670
+Flask : 820
+Scrum : 820
+REST : 1608
+kubernetes : 820
+docker : 1110
+InfluxDB : 820
+Jenkins : 1640
+jQuery : 1002
+Adobe Photoshop : 820
+Sphinx : 820
+ElasticSearch : 820
+Apache NiFi : 820
+VueJS : 820
+Product Management : 820
+Bootstrap : 1002
+Первичные документы : 788
+Администрирование серверов Linux : 820
+Администрирование серверов Windows : 820
+STM32 : 820
+C : 820
+Spark : 820
+Pandas : 820
+Lua : 638
+Gaming : 638
+ReactJS : 820
+HTML5 : 820
+API : 820
+Data Analysis : 550
+Machine learning : 550
+Деловое общение : 347
+pytest/unittest : 182
+aiohttp : 182
+AngularJS : 182
+Golang : 182
+Go : 182
+С : 150
+Networking : 150
+Black box testing : 150
+Функциональное тестирование : 150
+Vue.js/Nuxt.js : 150
+Английский — B1 — Средний : 95
+Финансовый анализ : 95
+Бизнес-анализ : 95
+Разработка технических заданий : 95
+kafka : 290
+airflow : 290
+NiFi : 290
+Tensorflow : 120
+Keras : 120
+PyTorch : 120
+Deep Learning : 120
+NLP : 120
+1С-Битрикс : 32
+Java : 32
+PHP5 : 32
+MS SQL : 32
+SEO : 32

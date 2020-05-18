@@ -4,7 +4,8 @@ from ungreat_matching import ungreat_match
 
 headers = {'accept': '*/*',
            'user-agent': 'Chrome/78.0.3904.108'}
-first_url = 'https://hh.ru/search/vacancy?area=1&st=searchVacancy&text=junior+python'
+your_request = input('Write your request here, please: ')
+first_url = 'https://hh.ru/search/vacancy?area=1&st=searchVacancy&text=' + your_request
 
 links = []
 skills = []
@@ -19,35 +20,52 @@ if request.status_code == 200:
     for container in containers:
         num_of_pages = int(container.find('a',attrs={'class':'bloko-button HH-Pager-Control'}).text)
     try:
-        print(num_of_pages)
+        print('quantity of pages: ' + str(num_of_pages))
     except NameError:
-        print(first_num)
+        print('quantity of pages: ' + str(first_num))
         num_of_pages = first_num
     except NameError:
         num_of_pages = 1
+        print('quantity of pages: 1')
 
-
+process = 0
+print('process status: 0%')
 session = requests.Session()
+print('process status: parsing 0% of content')
+
+#Time test
+import datetime
+t = datetime.datetime.now()
+
 for i in range(num_of_pages):
     link = 'https://hh.ru/search/vacancy?L_is_autosearch=false&area=1&clusters=true&enable_snippets=true&text=python&page={0}'.format(i)
     request = session.get(first_url, headers=headers)
     if request.status_code == 200:
         soup = bs(request.content,'html.parser')
-        divs = soup.find_all('div', attrs={'data-qa':'vacancy-serp__vacancy'}) #vacancy-serp__vacancy_premium
+        divs = soup.find_all('div', attrs={'data-qa':'vacancy-serp__vacancy'})
         for div in divs:
             title = div.find('a', attrs={'data-qa':'vacancy-serp__vacancy-title'})['href']
-            #print(title)
             links.append(title)
-        print('wait a minete...')
         for url in links:
-            session = requests.Session()
+            # session = requests.Session()
             request = session.get(url, headers=headers)
             if request.status_code == 200:
                 soup = bs(request.content,'html.parser')
                 divs = soup.find_all('div', attrs={'data-qa':'bloko-tag bloko-tag_inline skills-element'})
                 for div in divs:
                     skills.append(div.find('span', attrs={'data-qa':'bloko-tag__text'}).text)
-print(skills)
+    if (1/(num_of_pages-i))*100 != 100:
+        print('process status: parsing {0}% of content'.format((i+1/(num_of_pages))*100))
+    else:
+        print('process status: parsing DONE')
+
+#Time test end
+
+t_new = datetime.datetime.now()
+delta = t_new - t
+print('Time: '+ str(delta))
+
+#print(skills)
 
 
 i=0
