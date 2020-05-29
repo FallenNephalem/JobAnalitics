@@ -1,122 +1,833 @@
-Python : 26725
-Linux : 9885
-Windows : 1640
-pytest : 1640
-Django Framework : 9352
-Git : 11864
-PostgreSQL : 6426
-Математическая статистика : 1458
-Математический анализ : 1458
-Искусственный интеллект : 820
-Big Data : 820
-Data science : 820
-Lead engineer : 820
-REST API : 1002
-Django : 1640
-Celery : 1640
-asyncio : 1002
-Nginx : 820
-Docker : 1640
-devops : 820
-Redis : 4888
-MongoDB : 3280
-Elasticsearch : 820
-RabbitMQ : 2460
-NoSQL : 820
-SocialNetwork : 820
-gevent : 820
-Atlassian Jira : 1640
-Базы данных : 820
-Kafka : 820
-BackEnd : 820
-C/C++ : 2460
-Английский — B2 — Средне-продвинутый : 1640
-Английский язык : 915
-dask : 820
-pandas : 820
-ETL : 820
-Английский — C1 — Продвинутый : 820
-ООП : 1972
-Django REST Framework : 820
-PyTest : 820
-Postgres : 820
-CI : 820
-Работа в команде : 820
-Математическое моделирование : 638
-Statistica : 638
-Data Mining : 1458
-Аналитические исследования : 638
-Анализ данных : 638
-R programming languagу : 638
-SQL : 2877
-Machine Learning : 638
-R : 638
-TCP/IP : 788
-Bash : 2278
-C++ : 1640
-Маркетинговый анализ : 820
-Статистический анализ : 820
-Data Science : 820
-Pytorch и TensorFlow : 638
-Умение работать в коллективе : 985
-CSS : 670
-JavaScript : 2610
-MySQL : 1490
-HTML : 670
-Flask : 820
-Scrum : 820
-REST : 1608
-kubernetes : 820
-docker : 1110
-InfluxDB : 820
-Jenkins : 1640
-jQuery : 1002
-Adobe Photoshop : 820
-Sphinx : 820
-ElasticSearch : 820
-Apache NiFi : 820
-VueJS : 820
-Product Management : 820
-Bootstrap : 1002
-Первичные документы : 788
-Администрирование серверов Linux : 820
-Администрирование серверов Windows : 820
-STM32 : 820
-C : 820
-Spark : 820
-Pandas : 820
-Lua : 638
-Gaming : 638
-ReactJS : 820
-HTML5 : 820
-API : 820
-Data Analysis : 550
-Machine learning : 550
-Деловое общение : 347
-pytest/unittest : 182
-aiohttp : 182
-AngularJS : 182
-Golang : 182
-Go : 182
-С : 150
-Networking : 150
-Black box testing : 150
-Функциональное тестирование : 150
-Vue.js/Nuxt.js : 150
-Английский — B1 — Средний : 95
-Финансовый анализ : 95
-Бизнес-анализ : 95
-Разработка технических заданий : 95
-kafka : 290
-airflow : 290
-NiFi : 290
-Tensorflow : 120
-Keras : 120
-PyTorch : 120
-Deep Learning : 120
-NLP : 120
-1С-Битрикс : 32
-Java : 32
-PHP5 : 32
-MS SQL : 32
-SEO : 32
+Python : 310
+SQL : 143
+Linux : 135
+Git : 86
+PostgreSQL : 67
+Java : 61
+Bash : 54
+C++ : 48
+JavaScript : 37
+C/C++ : 35
+Docker : 28
+Django Framework : 26
+Английский язык : 26
+Atlassian Jira : 25
+MySQL : 25
+Data Mining : 25
+Английский — B2 — Средне-продвинутый : 25
+MS SQL : 23
+Математическая статистика : 22
+Базы данных : 21
+Nginx : 20
+ООП : 20
+MongoDB : 18
+Kubernetes : 17
+MATLAB : 17
+Математическое моделирование : 16
+HTML : 16
+Администрирование серверов Linux : 16
+C# : 15
+Английский — B1 — Средний : 15
+Redis : 14
+CSS : 14
+SCALA : 14
+Статистический анализ : 13
+PHP : 13
+R : 13
+MS PowerPoint : 13
+TCP/IP : 12
+Английский — C1 — Продвинутый : 12
+Node.js : 12
+Hadoop : 12
+Информационная безопасность : 12
+Zabbix : 12
+VBA : 12
+Математический анализ : 12
+Анализ данных : 11
+Тестирование : 11
+RabbitMQ : 10
+Data Analysis : 10
+Функциональное тестирование : 10
+SVN : 10
+Ansible : 10
+Информационные технологии : 10
+Golang : 9
+Jenkins : 9
+Аналитическое мышление : 9
+Английский — A1 — Начальный : 9
+ORACLE : 9
+Oracle Pl/SQL : 9
+Big Data : 8
+Работа в команде : 8
+Tensorflow : 8
+Qt : 8
+Аналитические исследования : 8
+Perl : 8
+Spring Framework : 8
+QA : 8
+ETL : 8
+Flask : 7
+Machine learning : 7
+REST : 7
+Бизнес-анализ : 7
+OpenCV : 7
+PyTorch : 7
+Управление проектами : 7
+Spark : 7
+Ruby : 7
+CentOS : 7
+jQuery : 7
+NLP : 7
+CI/CD : 7
+AWS : 7
+Machine Learning : 7
+STL : 7
+MS Excel : 7
+Обучение и развитие : 7
+Kafka : 6
+NoSQL : 6
+Agile Project Management : 6
+React : 6
+Unix : 6
+API : 6
+Маркетинговый анализ : 6
+Анализ рисков : 5
+MS Visio : 5
+Веб-программирование : 5
+AngularJS : 5
+Kotlin : 5
+Оценка рисков : 5
+Clickhouse : 5
+MS SQL Server : 5
+Product Management : 4
+Bootstrap : 4
+Elasticsearch : 4
+Администрирование серверов Windows : 4
+Cassandra : 4
+ARM : 4
+Разработка технических заданий : 4
+Android : 4
+Техническая поддержка : 4
+Технические средства информационной защиты : 4
+Windows Os : 4
+.NET Framework : 4
+Подготовка презентаций : 4
+Deep Learning : 4
+Go : 4
+Java SE : 4
+Digital Signal Processing : 4
+Olap (online analytical processing) : 4
+E-Commerce : 4
+Работа с большим объемом информации : 4
+Математическое программирование : 4
+Data Science : 4
+ML : 4
+Работа с базами данных : 4
+Test case : 4
+Scrum : 4
+STM32 : 3
+docker : 3
+devops : 3
+OpenStack : 3
+Hive : 3
+Системный анализ : 3
+Numpy : 3
+Разработка ПО : 3
+Администрирование : 3
+СУБД : 3
+GitLab : 3
+Ruby On Rails : 3
+Apache Tomcat : 3
+Проведение тестирований : 3
+ELK : 3
+Analytical skills : 3
+Google Analytics : 3
+Start-up project : 3
+CSS3 : 3
+Selenium IDE : 3
+Sas : 3
+Средства криптографической защиты информации : 3
+Руководство коллективом : 3
+Управление временем : 3
+HTML5 : 3
+Mathcad : 3
+MS Office : 3
+Маркетинговые исследования : 3
+XML : 3
+SDLC : 3
+Статистика : 3
+С# : 3
+SIEM : 3
+Pandas : 3
+Управление продуктом : 3
+OS Linux/Unix : 3
+VoIP : 3
+Ориентация на результат : 3
+Celery : 2
+kafka : 2
+Экономическое моделирование : 2
+Data science : 2
+asyncio : 2
+iOS : 2
+Умение работать в коллективе : 2
+Atlassian Confluence : 2
+Teamleading : 2
+ICPC : 2
+TensorFlow : 2
+Computer Vision : 2
+machine learning : 2
+neural networks : 2
+computer vision : 2
+Управление командой : 2
+Webpack : 2
+UML : 2
+Постановка задач разработчикам : 2
+Разработка нового продукта : 2
+Системное мышление : 2
+Keras : 2
+Assembler : 2
+NUnit : 2
+XUnit : 2
+Moq : 2
+Техническая документация : 2
+Разработка продукта : 2
+Helpdesk : 2
+UI : 2
+UX : 2
+Виртуализация : 2
+FreeBSD : 2
+Leadership Skills : 2
+Project management : 2
+System Integration : 2
+Business Analysis : 2
+Business Intelligence Systems : 2
+TeamCity : 2
+IoT : 2
+Системная интеграция : 2
+Cisco : 2
+VMware : 2
+Wifi networks : 2
+Unit Testing : 2
+Splunk : 2
+CRM : 2
+pandas : 2
+Development : 2
+Apache Maven : 2
+Apache Spark : 2
+MS Access : 2
+Java EE : 2
+TypeScript : 2
+Redmine : 2
+Тестирование пользовательского интерфейса : 2
+Контроль качества : 2
+PHP5 : 2
+RNN : 2
+Math : 2
+CNN : 2
+Data Structures : 2
+Mathematics : 2
+Nagios : 2
+angular : 2
+WEB аналитика : 2
+Symfony : 2
+Риск-менеджмент : 2
+Прогнозирование : 2
+Управление рисками : 2
+Аудит безопасности : 2
+react : 2
+SAP BW : 2
+База данных: Oracle : 2
+kotlin : 2
+kubernetes : 2
+Умение работать в команде : 2
+SOAP : 2
+Грамотная речь : 2
+ELT : 2
+reverse engineering : 2
+LTV : 2
+Яндекс.Метрика : 2
+Веб-аналитика : 2
+продуктовая аналитика : 2
+Ценные бумаги : 2
+Virtualization : 2
+Consul : 2
+Helm : 2
+Skafford : 2
+Vault : 2
+Prometheus : 2
+NewRelic : 2
+EFK : 2
+Sentry : 2
+Atlassian : 2
+Unix Shell Scripts : 2
+Регрессионный анализ : 2
+Skype : 2
+JUnit : 2
+Финансовая отчетность : 2
+BPMN : 2
+WAF : 2
+Интернет-реклама : 2
+Нагрузочное тестирование : 2
+Hibernate ORM : 2
+Rust : 2
+Devops : 2
+Apache HTTP Server : 2
+Подготовка отчетов : 2
+Сбор и анализ информации : 2
+аналитика : 2
+Графический дизайн : 2
+Дизайн : 2
+Инфографика : 2
+Big Query : 2
+Vertica : 2
+DAX : 2
+Boost : 2
+Asterisk : 2
+Speechwriting : 2
+DevOps : 2
+BackEnd : 1
+Windows : 1
+pytest : 1
+Sphinx : 1
+ElasticSearch : 1
+Apache NiFi : 1
+VueJS : 1
+C : 1
+peewee : 1
+peewee-async : 1
+Искусственный интеллект : 1
+Lead engineer : 1
+REST API : 1
+Django : 1
+SocialNetwork : 1
+gevent : 1
+Swift : 1
+swift : 1
+Pytorch и TensorFlow : 1
+aioamqp : 1
+aiohttp : 1
+Асинхронное программирование : 1
+Многопоточное программирование : 1
+Микросервисы : 1
+HighLoad : 1
+Первичные документы : 1
+Организаторские навыки : 1
+Обучение персонала : 1
+PySpark : 1
+ITSM : 1
+AI : 1
+Pytorch : 1
+MXNET : 1
+АБ тесты : 1
+Игровой баланс : 1
+Поведение пользователей : 1
+Продуктовые метрики : 1
+anti-fraud : 1
+IP camera : 1
+deep learning : 1
+ML frameworks : 1
+MXNet : 1
+CAFFE : 1
+Iron Python : 1
+GPU : 1
+x86 : 1
+нейронные сети : 1
+RnD : 1
+Research And Development : 1
+GAN : 1
+Redux : 1
+Babel : 1
+PowerBI : 1
+Qlik : 1
+Tableau : 1
+Xamarin : 1
+Unity : 1
+VR : 1
+Консультирование клиентов : 1
+cassandra : 1
+ux/ui : 1
+Game Interfaces : 1
+Unreal Engine : 1
+QA automation : 1
+aws : 1
+sdet : 1
+конфигурационное управление : 1
+инфраструктура разработки ПО : 1
+развертывание инфраструктуры : 1
+Высокая нагрузка : 1
+Web : 1
+IPv4 : 1
+Web-серверы : 1
+Anaplan : 1
+Cognos Planning : 1
+SAP : 1
+Oracle Hyperion : 1
+Performance Management : 1
+ClickHouse : 1
+Аналитика : 1
+компьютерные курсы : 1
+IT-технологии : 1
+информатика : 1
+вычислительная техника : 1
+компьютерная безопасность : 1
+Borland Delphi : 1
+Преподаватель : 1
+Ansi C++ : 1
+промышленное программирование : 1
+Робототехника : 1
+Навыки переговоров : 1
+PCI DSS : 1
+Backbone : 1
+Научные исследования : 1
+Научная деятельность : 1
+5G : 1
+802.11 : 1
+IBM WebSphere : 1
+Rancher : 1
+Работа в режиме многозадачности : 1
+FPGA : 1
+DSP : 1
+Microservices : 1
+Анализ бизнес показателей : 1
+impala : 1
+Sailfish : 1
+СУБД Oracle : 1
+Spring : 1
+Английский — C2 — В совершенстве : 1
+Marketing Analysis : 1
+Управление процессами : 1
+Автоматизированное тестирование : 1
+STM : 1
+Silabs : 1
+Bluetooth : 1
+Программирование микроконтроллеров : 1
+ANN : 1
+3D Programming : 1
+Автоматизация процессов : 1
+Web Design : 1
+Audio : 1
+Speech Processing : 1
+Image Processing : 1
+Медицинская документация : 1
+Neural Network : 1
+Машинное обучение : 1
+Azure : 1
+Puppet : 1
+SWIFT Alliance : 1
+DHCP : 1
+Entity Framework : 1
+архитектура ПО : 1
+интеграция ПО : 1
+ScyllaDB : 1
+Bigquery : 1
+Планирование : 1
+Teradata : 1
+Моделирование : 1
+Скоринговая карта : 1
+кредитные риски : 1
+Банковские риски : 1
+резервы : 1
+расчет резервов : 1
+Немецкий — C1 — Продвинутый : 1
+алгоритмы : 1
+структуры данных : 1
+golang : 1
+Пользователь ПК : 1
+Fullstack : 1
+Design Patterns : 1
+Microservice architecture : 1
+Экономическая теория : 1
+Эконометрика : 1
+Stata : 1
+EViews : 1
+Экономический анализ : 1
+Техническая поддержка пользователей : 1
+SAP BI : 1
+go : 1
+Clojure : 1
+vertical : 1
+tarantool : 1
+Architecture : 1
+Организация презентаций : 1
+Регресионное тестирование : 1
+SQL запросы : 1
+Qliksense : 1
+Мотивация персонала : 1
+clickhouse : 1
+DO-178 : 1
+ГОСТ-51904 : 1
+Gitlab : 1
+numpy : 1
+scipy : 1
+sklearn : 1
+xgboost : 1
+react native : 1
+cordova : 1
+typescript : 1
+MVC : 1
+PHP7 : 1
+Magento : 1
+py.test : 1
+CI/СD : 1
+RDBMS : 1
+HDFS : 1
+Yarn : 1
+Information Security : 1
+Vulnerability : 1
+source code : 1
+penetration test : 1
+English : 1
+Defense : 1
+АСУ ТП : 1
+SCADA : 1
+анализ защищенности : 1
+микроконтроллеры : 1
+JTAG : 1
+программирование : 1
+проприетарные протоколы : 1
+поиск уязвимостей : 1
+стенды АСУ ТП : 1
+макеты : 1
+Arduino : 1
+raspberry pi : 1
+схемотехника : 1
+GPIO : 1
+паяльная станция : 1
+логический анализатор : 1
+программатор : 1
+C\C++ : 1
+методология тестирования : 1
+Администрирование сайтов : 1
+Mac Os : 1
+Customer Journey Map : 1
+Personas : 1
+MVP : 1
+ARPU : 1
+ARPPU : 1
+CAC : 1
+GTM : 1
+OpenNebula : 1
+Ceph : 1
+DRBD : 1
+Linstor : 1
+KVM : 1
+Libvirt : 1
+QEMU : 1
+СХД : 1
+Data engineer : 1
+Регресcионное тестирование : 1
+Автоматизация : 1
+Shell Scripting : 1
+SaltStack : 1
+Power BI : 1
+Data analyst : 1
+Analysis : 1
+GUI : 1
+Mentor Graphics : 1
+CVRF : 1
+Бизнес-моделирование : 1
+портфельный анализ : 1
+Blockchain : 1
+ethereum : 1
+Фотошаблоны : 1
+Фотолитография : 1
+OLE for Process Control : 1
+Transact-SQL : 1
+ASP.NET : 1
+Black box testing : 1
+DWH : 1
+Data lake : 1
+hadoop : 1
+BDD : 1
+auto testing : 1
+Gatling : 1
+Highload : 1
+Ajax : 1
+JSP : 1
+CDH, Kafka, Flink, Nifi, Ignite, Spark : 1
+администрирование информационных систем : 1
+OpenGL : 1
+DirectX11 : 1
+MaxScript : 1
+Nsight : 1
+3D : 1
+3D-графика : 1
+Graphics : 1
+Graphics Programmer : 1
+3D Programmer : 1
+рейтинговые модели : 1
+модели оценки МСБ : 1
+валидация статистических моделей : 1
+С : 1
+team leader : 1
+PD : 1
+LGD : 1
+EAD : 1
+Guide : 1
+Miner : 1
+Управление персоналом : 1
+Стратегическое мышление : 1
+Mapreduce : 1
+Espresso : 1
+Mockito : 1
+Automation : 1
+Урегулирование конфликтов : 1
+Основы С/С++ : 1
+JS : 1
+MVVM : 1
+DS : 1
+OpenShift : 1
+React/Vue : 1
+Pipeline : 1
+Compilers : 1
+data structures : 1
+Наставничество : 1
+Интернет маркетинг : 1
+Redhat : 1
+Artifactory : 1
+Postgres : 1
+IDS\IPS : 1
+nmap : 1
+Neuronet : 1
+RecSys : 1
+Kaggle : 1
+1С: Бухгалтерия : 1
+1С: Зарплата и управление персоналом : 1
+1С: Управление Торговлей : 1
+1С программирование : 1
+проектирование архитектуры : 1
+Системы видеонаблюдения : 1
+SkLearn : 1
+Impala : 1
+Ценообразование : 1
+Statistica : 1
+Финансовое моделирование : 1
+Системный подход : 1
+swarm : 1
+openshift : 1
+AutoML : 1
+Грамотность : 1
+Intellij IDEA : 1
+React.js : 1
+Graylog : 1
+NGFW : 1
+IDM : 1
+Cisco ASA : 1
+Cisco FTD : 1
+Infrastructure as code : 1
+Kaspersky : 1
+DevSecOps : 1
+Jmeter : 1
+Oracle Hyperion Planning : 1
+Oracle Financial Reporting : 1
+FDM EE : 1
+ARIS : 1
+MS Project : 1
+Модель данных : 1
+Оптимизация бизнес процессов : 1
+Team management : 1
+Автоматизация технологических процессов : 1
+Настройка DNS : 1
+Windows Server 2008 R2 : 1
+Vulnerability researcher : 1
+Сканеры безопасности : 1
+Обеспечение антивирусной защиты : 1
+Spring Boot : 1
+Apache Ignite : 1
+Apache Cassandra : 1
+Яндекс ClickHouse : 1
+HAproxy : 1
+Apache Solr : 1
+Рекрутмент : 1
+Подбор персонала : 1
+системная аналитика : 1
+продуктовые исследования : 1
+Мобильная разработка : 1
+Работа на выставках : 1
+ГОСТ : 1
+ЕСПД : 1
+ЕСКД : 1
+разработка скоринговых карт : 1
+Cистемы управления базами данных : 1
+Oracle Application Express : 1
+APEX : 1
+Автотестирование : 1
+Внутренний контроль : 1
+Формирование управленческой отчетности : 1
+Вывод продукта на рынок : 1
+Investment Banking : 1
+Взаимодействие с инвестиционными фондами : 1
+Биржевые торги : 1
+Запуск новых продуктов : 1
+RTOS : 1
+Embedded Software : 1
+Matplotlib : 1
+Scipy : 1
+Sklearn : 1
+Transformers : 1
+Scikit-learn : 1
+Tarantool : 1
+Neo4J : 1
+SQL системы : 1
+Event sourcing : 1
+Pascal : 1
+Vue : 1
+Transformer : 1
+OWASP : 1
+RED TEAM : 1
+BugBounty : 1
+CTF : 1
+CEH : 1
+OSCP : 1
+Маркетинговые коммуникации : 1
+Планирование маркетинговых кампаний : 1
+B2C маркетинг : 1
+SMM : 1
+Маркетинговое планирование : 1
+B2B маркетинг : 1
+k8s : 1
+GCP : 1
+Databases : 1
+HADOOP : 1
+Microsoft Visual Studio : 1
+Sales Management : 1
+SaaS : 1
+PSTN : 1
+Software Development : 1
+Images Processing : 1
+.NET Core : 1
+потребительские кредиты : 1
+Code Optimization : 1
+Управление разработкой : 1
+SPSS : 1
+Аналитический склад ума : 1
+ГИС : 1
+GIS : 1
+CMake : 1
+Корпоративные финансы : 1
+Sales Planning : 1
+Negotiation skills : 1
+Немецкий — A2 — Элементарный : 1
+FTP : 1
+Ad Hoc Analysis : 1
+Bloomberg : 1
+refinitiv : 1
+kondor+ : 1
+murex : 1
+алгоритмические системы : 1
+торговые площадки : 1
+оценка рыночного риска : 1
+алгоритмическая торговля : 1
+Русский — C2 — В совершенстве : 1
+Figma : 1
+React Native : 1
+ANSYS : 1
+sprig boot : 1
+дашборд : 1
+Отчетность : 1
+Юриспруденция : 1
+Навыки межличностного общения : 1
+Программирование : 1
+Теория экспериментов : 1
+Windows 7 : 1
+Windows Xp : 1
+Web-тестирование : 1
+Резервное копирование : 1
+Телефонные переговоры : 1
+Клиентоориентированность : 1
+Secuity Software : 1
+buildroot : 1
+GCC : 1
+PLC : 1
+Embedded : 1
+kernel : 1
+reverse : 1
+обучение сотрудников : 1
+threads : 1
+HTTP : 1
+Разработка проектной документации : 1
+Проектная документация : 1
+SOC : 1
+Market Research : 1
+SIP : 1
+ОС семейства Linux : 1
+Скрипты: python, bash : 1
+Понимание технологий защиты информации : 1
+UTM : 1
+FIrewall : 1
+Sandbox : 1
+SEG : 1
+Anti-Ddos : 1
+Data Warehouses : 1
+Data Transfomrations : 1
+Google BigQuery : 1
+Data Pipelines : 1
+Управление отношениями с клиентами : 1
+AirFlow : 1
+Инвестиционный консалтинг : 1
+1C: Финансы : 1
+Power pivot : 1
+Power query : 1
+Архитектура : 1
+Семантическая верстка : 1
+биометрия : 1
+голосовая биометрия : 1
+регулярные выражения : 1
+PaceMaker : 1
+Unified Communications : 1
+InnoDB : 1
+SBC : 1
+BGP : 1
+RADIUS : 1
+IPTV : 1
+D-Link : 1
+CCIE : 1
+CCNP : 1
+OVM/UVM : 1
+SystemVerilog : 1
+Микросервисная архитектура : 1
+S3 API : 1
+Apache Kafka : 1
+Affilite marketing : 1
+CPA : 1
+Internet Marketing : 1
+Facebook API : 1
+Facebook : 1
+Социальные сети : 1
+Cоциальный маркетинг : 1
+Google AdWords : 1
+Selenium : 1
+Pytest : 1
+Системное администрирование : 1
+Mercurial : 1
+Adobe Photoshop : 1
+Hyper-V : 1
+Анализ рынка : 1
+Управленческая отчетность : 1
+Исследования рынка : 1
+Product Analysis : 1
+Data platform : 1
+AB Testing : 1
+Redshift : 1
+Presto : 1
+BigQuery : 1
+Data Research : 1
+ROI : 1
+BigData : 1
+Data Lake : 1
+Prognoz Platform : 1
+Fore : 1
+Fore.NET : 1
+BPM : 1
+разработка архитектуры : 1
+разработка инфраструктуры компании : 1
+CD\CI : 1
+Информационный безопасности : 1
+кибератак : 1
+ИБ : 1
+расследование инцидентов ИБ : 1
+Создание концепции ИБ : 1
+DevOps. : 1
+Оптимизация бизнес-процессов : 1
+Multithread Programming : 1
+Reviewing : 1
