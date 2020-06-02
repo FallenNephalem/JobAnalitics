@@ -3,7 +3,6 @@ from bs4 import BeautifulSoup as bs
 from unmatch.ungreat_matching import ungreat_match
 from GUI import drawPieDiagram
 
-
 headers = {'accept': '*/*',
            'user-agent': 'Chrome/78.0.3904.108'}
 your_request = input('Write your request here, please: ')
