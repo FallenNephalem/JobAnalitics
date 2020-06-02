@@ -1,7 +1,8 @@
 import requests
 from bs4 import BeautifulSoup as bs
 from unmatch.ungreat_matching import ungreat_match
-from test import drawPieDiagram
+from GUI import drawPieDiagram
+
 
 headers = {'accept': '*/*',
            'user-agent': 'Chrome/78.0.3904.108'}
@@ -48,7 +49,6 @@ for i in range(num_of_pages):
             title = div.find('a', attrs={'data-qa':'vacancy-serp__vacancy-title'})['href']
             links.append(title)
         for url in links:
-            # session = requests.Session()
             request = session.get(url, headers=headers)
             if request.status_code == 200:
                 soup = bs(request.content,'html.parser')
@@ -67,8 +67,6 @@ t_new = datetime.datetime.now()
 delta = t_new - t
 print('Time: '+ str(delta))
 
-# print(skills)
-
 
 statistic = {}
 while len(skills)>0:
@@ -78,7 +76,6 @@ while len(skills)>0:
     else:
         statistic[skills[0]] = statistic[skills[0]] + 1
     skills.remove(skills[0])
-#print(statistic)
 list_of_statistic = list(statistic.items())
 list_of_statistic.sort(key=lambda i: i[1], reverse=True)
 
@@ -87,9 +84,6 @@ values = []
 file = open('statistics.txt','w')
 for static in list_of_statistic:
     file.write(str(static[0]) + ' : ' + str(static[1]) + '\n')
-    # if static[1] < 2:
-    #     #values[0] += static[1]
-    # else:
 
     if static[1] > 2:
         keys.append(static[0])
