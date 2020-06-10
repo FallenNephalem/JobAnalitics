@@ -23,9 +23,11 @@ if request.status_code == 200:
         print('quantity of pages: ' + str(num_of_pages))
     except NameError:
         try:
-            first_num = int(soup.find('a',attrs={'class':'bloko-button HH-Pager-Control'}).text)
-            print('quantity of pages: ' + str(first_num))
-            num_of_pages = first_num
+            con = soup.find('span', attrs={'class':'bloko-button-group'})
+            buttons = con.find_all('a',attrs={'class':'bloko-button HH-Pager-Control'})
+            for button in buttons:
+                num_of_pages = button.text
+            print('quantity of pages: ' + str(num_of_pages))
         except NameError:
             num_of_pages = 1
             print('quantity of pages: 1')
@@ -84,7 +86,7 @@ file = open('statistics.txt','w')
 for static in list_of_statistic:
     file.write(str(static[0]) + ' : ' + str(static[1]) + '\n')
 
-    if static[1] > 2:
+    if static[1] > 1:
         keys.append(static[0])
         values.append(static[1])
 
